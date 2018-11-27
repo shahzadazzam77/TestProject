@@ -1,0 +1,52 @@
+
+.masthead {
+  background-attachment: fixed;
+  color: #F5F5F5;
+  padding: 105px 30px 75px;
+}
+
+  .masthead .logo {
+    max-height: 150px;
+  }
+
+
+
+
+.light-grey, .hover-light-grey:hover, .light-gray, .hover-light-gray:hover {
+  color: #000 !important;
+  background-color: #f1f1f1 !important;
+}
+
+.card, .card-2 {
+  box-shadow: 0 2px 5px 0 rgba(0,0,0,0.16), 0 2px 10px 0 rgba(0,0,0,0.12);
+}
+
+
+.border-green, .hover-border-green:hover {
+  border-color: #4CAF50 !important;
+}
+
+.section, .code {
+  margin-top: 16px !important;
+  margin-bottom: 16px !important;
+}
+
+.code {
+  width: auto;
+  background-color: #fff;
+  padding: 8px 12px;
+  border-left: 4px solid #4CAF50;
+  word-wrap: break-word;
+}
+
+.code, .codespan {
+  font-family: Consolas,"courier new";
+  font-size: 16px;
+}
+
+
+/*h1 {
+  font-size: 80px;
+  color: #555555;
+  margin: 2px 0 -20px 0 !important;
+}*/
