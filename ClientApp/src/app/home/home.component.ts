@@ -9,6 +9,9 @@ import { SafeHtml, DomSanitizer } from '@angular/platform-browser';
 
 export class HomeComponent {
 
+  BracketOpen: string = "{";
+  BracketClose: string = "}";
+
   CssTemplate: SafeHtml;
 
   constructor(private sanitizer: DomSanitizer) { }
@@ -37,6 +40,5 @@ export class HomeComponent {
               </span><span style="color:black">}</span>\
               </span>';
   }
-
 
 }
