@@ -12,6 +12,7 @@ import { FetchDataComponent } from './fetch-data/fetch-data.component';
 import { HtmlComponent } from './html/html.component';
 import { CssComponent } from './css/css.component';
 import { JavascriptComponent } from './javascript/javascript.component';
+import { IntroComponent } from './html/intro/intro.component';
 
 @NgModule({
   declarations: [
@@ -22,7 +23,8 @@ import { JavascriptComponent } from './javascript/javascript.component';
     FetchDataComponent,
     HtmlComponent,
     CssComponent,
-    JavascriptComponent
+    JavascriptComponent,
+    IntroComponent
   ],
   imports: [
     BrowserModule.withServerTransition({ appId: 'ng-cli-universal' }),
@@ -34,6 +36,7 @@ import { JavascriptComponent } from './javascript/javascript.component';
       { path: 'css', component: CssComponent },
       { path: 'javascript', component: JavascriptComponent },
       { path: 'fetch-data', component: FetchDataComponent },
+      { path: 'html/intro', component: IntroComponent }
     ])
   ],
   providers: [],
