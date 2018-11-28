@@ -44,3 +44,20 @@ h1 {
   color: #000 !important;
   background-color: #f1f1f1 !important;
 }
+
+
+.masthead {
+  background-attachment: fixed !important;
+  color: #F5F5F5 !important;
+  padding: 105px 30px 75px !important;
+}
+
+
+.homeImg-background {
+  background-image: url(/assets/images/pattern-home.svg) !important;
+  background-size: 200px 200px !important;
+}
+
+.home .btn-primary {
+  background-color: #6097EF !important;
+}
