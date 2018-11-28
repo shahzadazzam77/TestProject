@@ -1,4 +1,4 @@
-@import "//fonts.googleapis.com/css?family=Open+Sans:300italic,400italic,700italic,400,300,700";
+/*@import "//fonts.googleapis.com/css?family=Open+Sans:300italic,400italic,700italic,400,300,700";*/
 /* You can add global styles to this file, and also import other style files */
 
 
@@ -20,7 +20,7 @@
 }
 
 .btn-green {
-  background-color: #4CAF50;
+  background-color: #6097EF;
 }
 
 .btn-grey {
@@ -60,4 +60,14 @@ h1 {
 
 .home .btn-primary {
   background-color: #6097EF !important;
+}
+
+
+p {
+  font-size: 20px; 
+  line-height: 30px;
+  font-family: "Source Sans Pro","Helvetica Neue",Helvetica,Arial,sans-serif;
+  font-weight: 400;
+  font-style: normal;
+  /*text-align: left;*/
 }

@@ -50,3 +50,34 @@
   color: #555555;
   margin: 2px 0 -20px 0 !important;
 }*/
+
+.langLogo {
+  display: inline-block;
+  width: 19em;
+  padding:75px;
+  padding-bottom:50px;
+}
+
+
+.plusIcon {
+  font-size: 9em;
+  position: absolute;
+  margin-left: -39px;
+  margin-top: 50px;
+  color: #616161 !important;
+}
+
+
+
+.white, .hover-white:hover {
+  color: #000 !important;
+  background-color: #fff !important;
+}
+
+.padding {
+  padding: 8px 16px !important;
+}
+
+.card, .card-2 {
+  box-shadow: 0 2px 50px 0 rgba(0,0,0,0.16), 0 2px 50px 0 rgba(0,0,0,0.12);
+}
