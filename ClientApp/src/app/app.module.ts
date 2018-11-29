@@ -13,6 +13,7 @@ import { HtmlComponent } from './html/html.component';
 import { CssComponent } from './css/css.component';
 import { JavascriptComponent } from './javascript/javascript.component';
 import { IntroComponent } from './html/intro/intro.component';
+import { FooterComponent } from './footer/footer.component';
 
 @NgModule({
   declarations: [
@@ -24,7 +25,8 @@ import { IntroComponent } from './html/intro/intro.component';
     HtmlComponent,
     CssComponent,
     JavascriptComponent,
-    IntroComponent
+    IntroComponent,
+    FooterComponent
   ],
   imports: [
     BrowserModule.withServerTransition({ appId: 'ng-cli-universal' }),
