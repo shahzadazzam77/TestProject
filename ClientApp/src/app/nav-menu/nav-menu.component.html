@@ -1,28 +1,13 @@
-<nav class="navbar navbar-inverse is-dark">
+<nav class="navbar navbar-inverse">
   <div class="container-fluid">
     <div class="navbar-header">
       <a class='navbar-brand' [routerLink]='["/"]'>ProgrammersTime.com</a>
     </div>
     <ul class="nav navbar-nav">
-      <!--<li class="active"><a href="#">HTML</a></li>-->
-      <li [routerLinkActive]='["link-active"]'>
-        <a [routerLink]='["/html"]'>
-          <!--<span class='glyphicon glyphicon-education'></span>-->
-          HTML
-        </a>
-      </li>
-      <li [routerLinkActive]='["link-active"]'>
-        <a [routerLink]='["/css"]'>
-          <!--<span class='glyphicon glyphicon-education'></span>-->
-          CSS
-        </a>
-      </li>
-      <li [routerLinkActive]='["link-active"]'>
-        <a [routerLink]='["/javascript"]'>
-          <!--<span class='glyphicon glyphicon-education'></span>-->
-          JAVASCRIPT
-        </a>
-      </li>
+      <li><a>Code.</a></li>
+      <li><a>Eat.</a></li>
+      <li><a>Sleep,</a></li>
+      <li><a>Repeat.</a></li>
     </ul>
     <ul class="nav navbar-nav navbar-right">
       <li><a href="#"><span class="glyphicon glyphicon-user"></span> Feeback</a></li>
@@ -33,17 +18,20 @@
 <nav id="tag-nav" class="navbar is-dark is-hidden-touch">
   <div class="navbar-menu">
     <div class="navbar-start">
-      <a class="navbar-item" href="/tag/react">
-        <span>#</span>react
+      <a [routerLinkActive]='["link-active"]' class="navbar-item" [routerLink]='["/"]'>
+        <span>#</span>home
       </a>
-      <a class="navbar-item" href="/tag/vue">
-        <span>#</span>vue
+      <a [routerLinkActive]='["link-active"]' class="navbar-item" [routerLink]='["/html"]'>
+        <span>#</span>html
       </a>
-      <a class="navbar-item" href="/tag/angular">
-        <span>#</span>angular
+      <a [routerLinkActive]='["link-active"]' class="navbar-item" [routerLink]='["/css"]'>
+        <span>#</span>css
       </a>
-      <a class="navbar-item" href="/tag/javascript">
+      <a [routerLinkActive]='["link-active"]' class="navbar-item" [routerLink]='["/javascript"]'>
         <span>#</span>javascript
+      </a>
+      <a [routerLinkActive]='["link-active"]' class="navbar-item" [routerLink]='["/jquery"]'>
+        <span>#</span>jquery
       </a>
       <a class="navbar-item" href="/tag/node.js">
         <span>#</span>node.js

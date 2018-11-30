@@ -1,11 +1,12 @@
 .navbar {
   border-radius: 0px !important;
+  margin-bottom: 0px !important;
 }
 
 
 .navbar-inverse {
-  background-color: #546389;
-  border-color: #546389;
+  background-color: #000;
+  /*border-color: #546389;*/
   color: #fff;
 }
 
@@ -14,15 +15,18 @@
   .navbar-inverse .navbar-brand, .navbar-inverse .navbar-brand {
     color: #fff;
     background-color: transparent;
+    font-family: cursive !important;
+    /*transform: rotate(-15deg);*/ /* Equal to rotateZ(45deg) */
   }
 
   .navbar-inverse .navbar-nav > li > a, .navbar-inverse .navbar-nav > li > a {
     color: #fff;
     background-color: transparent;
+    font-family: cursive !important;
   }
 
 
-  .navbar-inverse .navbar-brand:hover {
+  /*.navbar-inverse .navbar-brand:hover {
     color: #000;
     background-color: transparent;
   }
@@ -30,7 +34,7 @@
     .navbar-inverse .navbar-nav > li > a:focus, .navbar-inverse .navbar-nav > li > a:hover {
       color: #000;
       background-color: transparent;
-    }
+    }*/
 
 
 
@@ -75,3 +79,16 @@
     padding: .5rem .75rem;
     position: relative;
 }
+
+
+
+.navbar-start {
+  margin-left:220px;
+  margin-top:12px;
+}
+
+
+
+/*.navbar-nav > a {
+  font-family: cursive !important;
+}*/
